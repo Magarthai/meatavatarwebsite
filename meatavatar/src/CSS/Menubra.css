@@ -1,0 +1,131 @@
+.container {
+    max-width: 100%; /* Ensure container does not exceed screen width */
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-left: 10px; /* Add padding to prevent content from touching screen edges */
+    padding-right: 10px;
+}
+
+.menu-con {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+.header {
+    height: 80px;
+    border-width: 1.5px;
+}
+
+a {
+    text-decoration: none;
+    color: #3C2A21;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.menu li {
+    padding-right: 1.2rem;
+    padding-top: 5px;
+    transition: 0.2s ease;
+}
+
+.webname {
+    font-size: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    border: none;
+    border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px -4px 0px inset;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: #661113;
+    color: #fff;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #222;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+.menu li:active {
+    scale: 1.08;
+}
+
+.menumobile {
+    display: none;
+}
+
+#User {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .menumobile {
+        display: block;
+        font-size: 2rem;
+    }
+    
+    header {
+        padding: 0;
+    }
+    .menu {
+        width: 100vw; /* Ensure the menu does not exceed viewport width */
+        height: auto;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        top: 93px;
+        left: 0; /* Adjust left position to align with screen edge */
+        opacity: 0;
+        transition: 0.5s ease;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .menu.active {
+        background-color: #3C2A21;
+        opacity: 1;
+        z-index: 1;
+        padding-left: 0;
+        align-content: center;
+        transition: 0.5s ease;
+        z-index: 2;
+    }
+    .menu-con {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+    .menu li {
+        padding-right: 0;
+    }
+    .menu li a {
+        color: #FFF;
+    }
+    .menulink {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vw;
+        padding: 5px 0;
+    }
+    img {
+        padding: 0;
+    }
+}

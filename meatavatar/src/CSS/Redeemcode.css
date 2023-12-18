@@ -1,0 +1,48 @@
+.form-controls::placeholder{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.mb-33{
+    background-color: #661113;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.input_forms input{
+    color: white;
+    font: 30px;
+}
+.redeemcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-controls{
+    background-color: #661113;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: none;
+    width: 100%;
+    border-bottom: 2px white solid;
+}
+.input_forms{
+    width: 100%;
+    border: none;
+}
+
+.button_redeem button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 100px;
+    border-radius: 100px;
+    border: none;
+    margin-right: 40px;
+    color: #661113;
+}

@@ -1,0 +1,130 @@
+/* ตั้งค่าขนาดและตำแหน่งของฟอร์ม */
+.auth-wrappers {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: #000 solid 1px;
+  padding: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+}
+.mb-3{
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  height: 50px;
+  margin-top: 20px;
+}
+/* ตั้งค่าสไตล์ของส่วนหัว */
+.auth-inner h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.d-grid button{
+  background-color: #661113;
+  box-shadow: none;
+  width: 70%;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+.text-right .signupbtn{
+  color: #4D8A00;
+}
+
+.labels{
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+/* ตั้งค่าสไตล์ของช่องใส่ข้อมูล */
+.mb-3 {
+  margin-bottom: 10px;
+}
+
+.icons{
+  font-size: 30px;
+  color: #B6B6B6;
+}
+
+.mb-3s{
+  display: flex;
+  justify-content: right;
+}
+
+.mb-3 label{
+  width: 150px;
+  text-align: left;
+}
+.form-control {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.form-control {
+  border-radius: 0;
+  border: none;
+ margin: 1px;
+}
+
+.mb-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.form-control:active{
+  border: none;
+}
+/* ตั้งค่าสไตล์ของปุ่ม */
+.btn {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ตั้งค่าสไตล์ของปุ่มลืมรหัสผ่าน */
+.forgot-password {
+  text-align: right;
+}
+
+/* ตั้งค่าสไตล์ของลิงค์สมัครสมาชิก */
+.forgot-password a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.regisheader{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iconheader{
+  font-size: 120px;
+  color: #8D8D8D;
+}
+
+.regisheader p{
+  margin-top: -40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+  .auth-wrappers{
+    padding: 30px;
+  }
+}

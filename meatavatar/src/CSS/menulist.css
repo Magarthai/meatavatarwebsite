@@ -1,0 +1,203 @@
+.menulist{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    zoom: 0.8;
+}
+.menulistbet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    position: relative;
+    top: -20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #661113;
+}
+
+.menucontainer{
+    margin: 10vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    width: 400px;
+    background-color: rgba(248, 248, 248, 1);
+    padding-left: 5vh;
+    border-radius: 5vh;
+    padding-right: 5vh;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px -10px 10px 0px inset,  rgba(0, 0, 0, 0.108) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.1) 0px -6px 3px inset;
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin: 10vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    width: 400px;
+    height: 500px;
+    background-color: #FFDBA6;
+    padding-left: 5vh;
+    padding-bottom: 10px;
+    border-radius: 5vh;
+    flex-wrap: wrap;
+    padding-right: 5vh;
+    scale: 0.8;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px -10px 10px 0px inset,  rgba(0, 0, 0, 0.108) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.1) 0px -6px 3px inset;
+}
+
+
+.Product-text{
+    display: flex;
+    font-size: 60px;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #661113;
+    height: 130px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.menuwrap{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(75, 141, 21, 0.5); 
+    box-shadow: inset 4px 4px 8px 0px rgba(0,0,0,0.15), inset -4px -4px 8px 0px rgba(214, 214, 214, 0.7);
+    width: 100%;
+    border-radius: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+}
+
+.shop-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14vh;
+    margin-right: 14vh;
+    margin-bottom: 50px;
+}
+
+.item .buttoninfo{
+    background-color: #4D8A00;
+    width: 100%;
+    margin-bottom: 5px;
+    border: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 100px;
+    transition: 0.2s ease;
+}
+
+.item .buttoninfo:hover{
+    scale: 1.05;
+    border: 10px solid white ;
+}
+
+.item .buttoninfo:active{
+    scale: 0.9;
+}
+
+
+i{
+    justify-content: center;
+    position: relative;
+    top: 6px;
+    text-align: center;
+}
+
+.menuwrap img{
+    width: 80%;
+}
+
+.imagecenter{
+    align-items: center;
+    width: 1000px;
+}
+.item-img img{
+    width: 85%;
+}
+.item-img{
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 70%;
+    background-color: white;
+    box-shadow: -4px -4px 10px inset #00000020,  inset 4px 5px 7px #00000015;
+}
+
+
+
+.item-name p{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 30px;
+}
+
+.shop-list {
+    
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 450px
+}
+
+.item {
+    margin: 5px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .menulist{
+        margin-top: -18vh;
+        display: flex;
+        margin-left:5vh;
+        margin-right:5vh;
+    }
+    .menulistbet{
+        padding-top: 0;
+        scale: 0.7;
+        margin-bottom: -20%;
+    }
+    .imagecenter{
+        margin-top: -20vh;
+    }
+    .menulistbet{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menucontainer{
+        margin-top: 5vh;
+    }
+    .shop-list{
+        position: relative;
+        scale: 0.55;
+        margin-left: 20%;
+        margin-right: 20%;
+        top: -400px;
+        margin-bottom: -700px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

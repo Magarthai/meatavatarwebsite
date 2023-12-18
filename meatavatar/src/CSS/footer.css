@@ -1,0 +1,64 @@
+.contractbtn button {
+    width: 50px; /* Allow button content to determine width */
+    height: 50px;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 2vh;
+    border: 1px solid black;
+    margin: 5px;
+    margin-bottom: 0;
+   
+  }
+  
+  .contractbtn button img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -1.5px;
+    width: 40px; /* Fixed width for icon */
+    height: 40px; /* Fixed height for icon */
+  }
+  
+  .contractbtn button:hover {
+    background-color: #ccc;
+  }
+  
+  .contract {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align the elements */
+  }
+  
+  footer {
+    padding-left: 15vh;
+    padding-right: 15vh;
+    height: 63px;
+    margin: 0;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .year{
+    width: 180px;
+    text-align: center !important;
+  }
+  .ari{
+    width: 180px;
+    height: 24px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    footer{
+        scale: 0.8;
+        padding-left: 0.1vh;
+        padding-right: 0.1vh;
+    }
+    .ari{
+        display: none;
+    }
+  }

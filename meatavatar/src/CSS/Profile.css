@@ -1,0 +1,84 @@
+.ranklevel{
+    
+    border-bottom: 1px solid #0000001f; /* เส้นคั่นด้านล่าง */
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    align-items: center;
+    padding: 5vh;
+    margin-bottom: 20px;
+}
+.profile-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 3px solid #D6BDEC;
+    padding: 10vh;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 4px 5px 4px 1px #D6BDEC25;
+}
+.name_info{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+}
+.info{
+    width:100%;
+    font-size: 25px;
+    background-color: #D6BDEC;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    padding-top: 10px;
+    
+}
+.rankimg{
+    margin-bottom: 20px;
+    width: 70%;
+}
+.ranklevel p{
+    padding: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #BA6CB6;
+    color:#fff;
+    width: 75px;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+.point{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.user_point{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pointbtn button{
+    border: none;
+    background-color: #E4CEAE;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 100px;
+    font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .profile-box{
+        padding: 5vh;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

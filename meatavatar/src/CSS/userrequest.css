@@ -1,0 +1,45 @@
+#mains{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+}
+.form{
+    position: relative;
+    left: 28.8%;
+    background-color: white;
+    text-align: left;
+    margin-top: 20px;
+    width: 42%;
+    height: 630px;
+    border-radius: 25px;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px -10px 10px 0px inset,  rgba(0, 0, 0, 0.108) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+}
+.xd{
+    padding-top: 2%;
+}
+.form h3{
+    padding-top: 5%;
+    text-align: center;
+}
+.from-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+.mb-4{
+    width: 450px;
+}
+.main-contain2 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+.btns{
+    margin: 10px;
+  }
+  

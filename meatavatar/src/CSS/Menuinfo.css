@@ -1,0 +1,245 @@
+.menuinfo_header{
+
+    background-image: url(https://cdn.discordapp.com/attachments/445928139021877259/1184530111953907762/image_56.png?ex=658c4ea2&is=6579d9a2&hm=b45c819d2e0b2818c82d7e07f7bd468d104c106e82bdaeaef2283332984ace8);
+    background-size: cover;
+width: 100%;
+height: 600px;
+}
+
+.img_ingredient img{
+    width: 90px;
+    height: 90px;
+}
+
+.menu-img img{
+    width: 600px;
+}
+.menuheadercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuheadercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    margin-right: 100px;
+    height: 100%;
+}
+.meatava{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+    text-shadow:
+                -2px -2px 0px white, /* Top-left shadow (outer stroke) */
+                2px -2px 0px white, /* Top-right shadow (outer stroke) */
+                -2px 2px 0px white, /* Bottom-left shadow (outer stroke) */
+                2px 2px 0px white; /* Bottom-right shadow (outer stroke) */
+}
+.menuname{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    color: #661113;
+    text-shadow:
+                -2px -2px 0px white, /* Top-left shadow (outer stroke) */
+                2px -2px 0px white, /* Top-right shadow (outer stroke) */
+                -2px 2px 0px white, /* Bottom-left shadow (outer stroke) */
+                2px 2px 0px white; /* Bottom-right shadow (outer stroke) */
+}
+
+.headermenuinfo{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    color: #661113;
+    text-shadow:
+                
+                -2px -2px 0px white, /* Top-left shadow (outer stroke) */
+                2px -2px 0px white, /* Top-right shadow (outer stroke) */
+                -2px 2px 0px white, /* Bottom-left shadow (outer stroke) */
+                2px 2px 0px white, /* Bottom-right shadow (outer stroke) */
+                0px 3px 7px rgba(0, 0, 0, 0.5); /* Top-left shadow (outer stroke) */
+                
+                
+}
+.ingredient{
+    margin-top: 10px;
+}
+.infos{
+    text-align: left;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.img_ingredient{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+ul{
+    margin: 0;
+}
+b{
+    font-weight: 600;
+}
+.nutritional_information{
+    width: 100%;
+    height: auto;
+    background-color: #661113 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+
+}
+
+.nutritional_header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 45px;
+    background-color: #E4CEAE;
+    width: 450px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #661113;
+    text-shadow:
+                
+                -2px -2px 0px white, /* Top-left shadow (outer stroke) */
+                2px -2px 0px white, /* Top-right shadow (outer stroke) */
+                -2px 2px 0px white, /* Bottom-left shadow (outer stroke) */
+                2px 2px 0px white, /* Bottom-right shadow (outer stroke) */
+                0px 3px 7px rgba(0, 0, 0, 0.5); /* Top-left shadow (outer stroke) */
+}
+
+.nutritional_stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.statbox{
+    margin: 0;
+    width: 14%;
+    height: 200px;
+    background-color: #E4CEAE;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.statname{
+    margin: 0;
+    font-size: 30px;
+    color: #661113;
+}
+
+.statcount{
+    margin: 0;
+    font-size: 80px;
+    color: white;
+}
+
+
+.statunit{
+    margin: 0;
+    font-size: 25px;
+    color: #661113;
+}
+
+
+.statbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutritional_img img{
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.226);
+    
+}
+
+.nutritional_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+@media screen and (max-width: 1250px) {
+    .menuheadercontainer{
+        scale: 0.5;
+        padding: 0;
+        margin: 0;
+        margin-right: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .menuinfo_header {
+        background-position: -60px 0; 
+        height: 50vh;
+        background-size: cover;
+    }
+    .headermenuinfo{
+        width: 100%;
+        font-size: 30px;
+    }
+    .infos{
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .infos p{
+        margin-top:-10px;
+    }
+    .img_ingredient img{
+        width: 70px;
+        height: 70px;
+    }
+    .img_ingredient{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .nutritional_header{
+        position: relative;
+        top: -100px;
+        width: 100%;
+        display: block;
+        border-radius: 0;
+        margin-top: 0;
+    }
+    .nutritional_stat{
+        margin: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .statbox{
+        border-radius: 10px;
+        width: 19%;
+        height: 0%;
+        margin: 0;
+    }
+    .statname{
+        font-size: 20px;
+        margin-top: -7px;
+    }
+    .statcount{
+        font-size: 40px;
+        margin-top: -10px;
+    }
+    .statunit{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+}

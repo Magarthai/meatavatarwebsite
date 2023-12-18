@@ -1,0 +1,54 @@
+.intro-product {
+    display: flex;
+    margin-top: 8vh;
+    width: 100%;
+    height: 80vh; /* Adjust this percentage as needed */
+    max-height: 918px; /* Set a maximum height if desired */
+    background-image: url(https://cdn.discordapp.com/attachments/445928139021877259/1180941824379068497/Ground-Beef-on-wood-02-e1679147899266-1536x1153_1_1.png?ex=657f40c7&is=656ccbc7&hm=c47bd366ac008b68e22c08b3bcbb3e039e8250a53eef96c450dc6acba352140a&);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 3vh;
+    align-items: left;
+    text-align: left;
+  }
+.intro{
+    justify-content: center;
+    width: 60vh;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.Productbtn{
+    font-size: 3vh;
+    border: none;
+    padding: 1vh;
+    color: #fff;
+    border-radius: 5vh;
+    background-color: #661113;
+    transition: 0.2s ease;
+    box-shadow: 0 -5px 5px inset #0000003f;
+}
+
+.Productbtn:hover{
+    box-shadow: 0 -5px 5px inset #00000083;
+    scale: 1.05;
+}
+
+.Productbtn:active{
+    scale: 0.9;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro{
+        scale: 0.85;
+        margin-left: 0;
+    }
+    .intro-product {
+        background-position: -80px 0; 
+        height:60vh;
+    }
+
+
+}

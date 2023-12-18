@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the wrapper takes at least the full viewport height */
+  }
+  
+  .auth-wrapper {
+    flex-grow: 1; /* Allow the content to grow and fill the available space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Your other CSS styles for Menubra and Banner */
+  
+  /* Sticky footer styles */
+  footer {
+    flex-shrink: 0; /* Prevent the footer from shrinking when there's little content */
+  }
