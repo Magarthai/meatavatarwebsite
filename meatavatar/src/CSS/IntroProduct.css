@@ -21,9 +21,12 @@
     text-align: left;
 }
 .Productbtn{
+    margin-top: 10px;
     font-size: 3vh;
     border: none;
-    padding: 1vh;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
     color: #fff;
     border-radius: 5vh;
     background-color: #661113;
@@ -40,7 +43,7 @@
     scale: 0.9;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .intro{
         scale: 0.85;
         margin-left: 0;

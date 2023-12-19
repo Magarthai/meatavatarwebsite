@@ -62,7 +62,7 @@ img {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.actives, .dot:hover {
     background-color: #88be5c;
 }
 

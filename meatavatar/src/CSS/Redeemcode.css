@@ -46,3 +46,12 @@
     margin-right: 40px;
     color: #661113;
 }
+@media screen and (max-width: 1000px) {
+    .button_redeem button{
+        width: 100px;
+        margin-left: 10px;
+    }
+    .redeemcode{
+        margin-top: 20px;
+    }
+}

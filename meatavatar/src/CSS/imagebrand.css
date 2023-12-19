@@ -1,7 +1,6 @@
 .imagebrand{
     display: flex;
-    margin-left:15vh;
-    margin-right:15vh;
+
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -21,15 +20,14 @@
 
 .imagecenter{
     align-items: center;
-    width: 1000px;
+    width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .imagebrand{
         margin-top: -18vh;
         display: flex;
-        margin-left:5vh;
-        margin-right:5vh;
+        scale: 0.8;
     }
     .imagebrandbet{
         flex-direction: column;

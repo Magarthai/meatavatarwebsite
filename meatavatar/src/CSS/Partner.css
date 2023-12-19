@@ -1,9 +1,9 @@
 .partner{
-    font-size: 5vh;
+    font-size: 50px;
     color: #000;
     display: flex;
     justify-content: center;
-    padding-bottom: 1vh;
+    padding-bottom: 10px;
 }
 .shop,.partner{
     display: flex;
@@ -11,17 +11,17 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 2vh;
+    margin: 20px;
 }
 .partner img{
     width: 90%;
     height: auto;
 }
 .partner p{
-    margin-bottom: 4vh;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 1000px) {
     .partner{
-        font-size: 3vh;
+        font-size: 30px;
     }
 }

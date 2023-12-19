@@ -32,7 +32,6 @@ export default function menuinfo({ userData }) {
             <div className="button_redeem">
                 <button>ส่ง</button>
             </div>
-           
         </div>
         </div>
        <RedeemPoint/>

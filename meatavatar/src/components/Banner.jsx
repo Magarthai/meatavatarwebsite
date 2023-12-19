@@ -51,7 +51,7 @@ function Banner() {
         {images.map((image, index) => (
           <span
             key={index}
-            className={`dot ${currentSlide === index ? "active" : ""}`}
+            className={`dot ${currentSlide === index ? "actives" : ""}`}
             onClick={() => jumpToSlide(index)}
           ></span>
         ))}

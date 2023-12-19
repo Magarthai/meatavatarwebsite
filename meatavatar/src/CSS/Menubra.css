@@ -11,9 +11,11 @@
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    flex: 0 0 auto;
     margin-left: 15vh;
     margin-right: 15vh;
+}
+.webname{
+    max-width: 120px;
 }
 
 .header {
@@ -84,18 +86,27 @@ a {
         padding: 0;
     }
     .menu {
-        width: 100vw; /* Ensure the menu does not exceed viewport width */
+        width: 100%;
         height: auto;
         display: flex;
         position: absolute;
         flex-direction: column;
-        top: 93px;
+        top: 60px;
         left: 0; /* Adjust left position to align with screen edge */
         opacity: 0;
         transition: 0.5s ease;
         overflow-x: hidden; /* Prevent horizontal scrolling */
+        background-color: #3C2A21;
+        opacity: 0;
+        z-index: 1;
+        padding-left: 0;
+        align-content: center;
+        transition: 0.5s ease;
+        z-index: 2;
+        display: none;
     }
     .menu.active {
+        display: flex;
         background-color: #3C2A21;
         opacity: 1;
         z-index: 1;

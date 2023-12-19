@@ -14,8 +14,10 @@ export default function Login() {
             <header className="header">
               <section className="container">
                 <div className="menu-con">
-                  <div className="webname">
-                    <Link to="/">Sadtabat</Link>
+                <div className="webname">
+                  <Link to = "/">
+                    <img src="https://cdn.discordapp.com/attachments/445928139021877259/1186552066605322339/meat-avartar_logo.png?ex=6593a9b9&is=658134b9&hm=9536dfe76a26991593b1148371ca870c7b2a3833be0cb62f64f116c478df5884&" alt="logo"/>
+                    </Link>
                   </div>
                   <ul className='menu'>
                     <li className="menulink">
@@ -27,6 +29,7 @@ export default function Login() {
             </header>
           </div>
         </header>
+        <div className="register_container">
         <section class="auth-wrappers">
             <div class="auth-inner">
                 <form>
@@ -82,7 +85,7 @@ export default function Login() {
                 </form>
             </div>
             </section>
-        
+            </div>
         <Footer/>
       </body>
     </html>
